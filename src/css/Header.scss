@@ -1,0 +1,47 @@
+.header {
+  height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+   .test{
+   
+   max-width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 102px;
+  
+
+  .logo-container {
+    padding: 10px;
+  }
+
+  .logo-container img{
+    width: 80px;
+  }
+
+  .options {
+   width: 230px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding-right: 30px;
+
+    .option {
+     width: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+    .option img{
+       width: 24px;
+    }
+  }
+
+   } 
+}

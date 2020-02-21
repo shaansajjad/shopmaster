@@ -1,0 +1,38 @@
+.footer-body {
+  background: #d2c5c5;
+  padding: 1px;
+  margin-top: 20px;
+  .footer-main {
+    display: flex;
+    padding: 25px;
+
+    .footer-inner {
+      text-align: left;
+      width: 30%;
+      text-align: center;
+    }
+    .footer-inner img {
+      width: 15%;
+    }
+    .footer-inner p {
+      color: black;
+    }
+    .app-logo img {
+      width: 50%;
+    }
+    .footer-inner ul {
+      list-style-type: none;
+    }
+    .footer-inner ul li {
+      margin-bottom: 10px;
+      display: block;
+    }
+    .footer-inner ul a {
+      color: black;
+      text-transform: uppercase;
+    }
+    .social li {
+      display: inline;
+    }
+  }
+}
