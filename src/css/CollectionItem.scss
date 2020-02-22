@@ -29,9 +29,20 @@
     .price {
       width: 10%;
     }
-    button {
-      position: absolute;
-      top: 255px;
+  }
+  button {
+    position: absolute;
+    top: 255px;
+    padding: 12px 50px;
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    outline: none;
+
+    &:hover {
+      cursor: pointer;
+      background-color: black;
+      color: white;
     }
   }
 }
