@@ -1,38 +1,38 @@
 .footer-body {
-  background: #d2c5c5;
-  padding: 1px;
   margin-top: 20px;
+  border-top: 1px solid #a8a8a8;
   .footer-main {
     display: flex;
-    padding: 25px;
+    justify-content: space-between;
+    padding: 35px 0;
 
-    .footer-inner {
-      text-align: left;
-      width: 30%;
-      text-align: center;
-    }
-    .footer-inner img {
-      width: 15%;
-    }
-    .footer-inner p {
-      color: black;
+    .app-logo {
+      width: 100px;
     }
     .app-logo img {
-      width: 50%;
+      width: 100%;
     }
-    .footer-inner ul {
+    .footer-nav ul {
       list-style-type: none;
     }
-    .footer-inner ul li {
+    .footer-nav ul li {
       margin-bottom: 10px;
-      display: block;
+      display: inline-block;
+      padding-right: 35px;
     }
-    .footer-inner ul a {
+    .footer-nav ul a {
       color: black;
       text-transform: uppercase;
+      cursor: pointer;
     }
-    .social li {
-      display: inline;
+
+    .footer-social li {
+      display: inline-block;
+      width: 45px;
+      padding: 15px;
+    }
+    .footer-social img {
+      width: 100%;
     }
   }
 }

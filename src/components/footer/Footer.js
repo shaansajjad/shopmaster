@@ -6,10 +6,10 @@ const Footer = () => (
   <div className="footer-body">
     <div className="container">
       <div className="footer-main">
-        <div className="footer-inner app-logo">
+        <div className="app-logo">
           <img src={require("../../assets/logo.png")} alt="appinventiv" />
         </div>
-        <div className="footer-inner">
+        <div className="footer-nav">
           <ul>
             <li>
               <Link className="option" to="">
@@ -33,18 +33,15 @@ const Footer = () => (
             </li>
           </ul>
         </div>
-        <div className="footer-inner social">
+        <div className="footer-social">
           <li>
-            <img src={require("../../assets/g+.png")} alt="google" />
+            <img src={require("../../assets/google-plus.svg")} alt="google" />
           </li>
           <li>
-            <img src={require("../../assets/instagram.png")} alt="instagram" />
+            <img src={require("../../assets/instagram.svg")} alt="instagram" />
           </li>
           <li>
-            <img src={require("../../assets/facebook.png")} alt="facebook" />
-          </li>
-          <li>
-            <img src={require("../../assets/twitter.png")} alt="twitter" />
+            <img src={require("../../assets/twitter.svg")} alt="twitter" />
           </li>
         </div>
       </div>
