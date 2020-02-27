@@ -54,24 +54,3 @@ export default function RouterPage() {
     </BrowserRouter>
   );
 }
-
-{
-  /* export default function RouterPage() {
-  return (
-    <div>
-      <Switch>
-        <Route path="/pdf" component={PDF} />
-      </Switch>
-
-      <Route component={Header} />
-      <Switch>
-        <Route path="/" component={Homepage} />
-        <Route path="/shop" component={ShopPage} />
-        <Route path="/checkout" component={Checkout} />
-        <Route path="/pdf" component={PDF} />
-      </Switch>
-      <Route component={Footer} />
-    </div>
-  );
-} */
-}

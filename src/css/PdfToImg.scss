@@ -1,1 +1,16 @@
-git commit -m "initial commit"
+.pdf-to-img-container {
+  border: 1px solid black;
+  width: 375px;
+  padding: 10px 20px;
+
+  button {
+    padding: 12px 40px;
+    background: black;
+    color: white;
+    border: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
