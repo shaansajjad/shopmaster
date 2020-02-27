@@ -30,7 +30,7 @@ class PdfToImg extends React.Component {
     // console.log("Updtaed state is", this.state);
 
     axios({
-      url: "http://elearningapi.appskeeper.com/pdf",
+      url: "https://elearningapi.appskeeper.com/pdf",
       method: "POST",
       headers: {
         "Content-Type": "multipart/form-data"
