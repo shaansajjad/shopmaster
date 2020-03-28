@@ -1,8 +1,36 @@
 body {
   font-family: "Open Sans Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  .collection-item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 812px) and (orientation: landscape) {
+  .collection-item {
+    width: 16%;
+    height: 196px;
+  }
+  .collection-item button {
+    padding: 4px 8px;
+    margin-top: -7rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1366px) and (orientation: portrait) {
+  .collection-item {
+    width: 17%;
+    height: 196px;
+  }
+  .collection-item button {
+    padding: 4px 8px;
+    margin-top: -7rem;
+  }
 }

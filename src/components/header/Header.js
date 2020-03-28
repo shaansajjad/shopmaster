@@ -27,7 +27,9 @@ class Header extends Component {
             <Link className="option" to="">
               <img src={User} alt="user" />
             </Link>
-            <Link className="option">{<CartIcon />}</Link>
+            <Link className="option" to="">
+              {<CartIcon />}
+            </Link>
           </div>
           {this.props.hidden ? null : <CartDropDown />}
         </div>

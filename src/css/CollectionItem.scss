@@ -38,6 +38,8 @@
     border: none;
     text-transform: uppercase;
     outline: none;
+    color: black;
+    transition: 0.5s;
 
     &:hover {
       cursor: pointer;

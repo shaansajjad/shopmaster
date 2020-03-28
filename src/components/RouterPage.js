@@ -7,7 +7,6 @@ import Header from "./header/Header";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import PDF from "./pracice/pdf-to-img/PdfToImg";
 import Registration from "./pracice/registration/SignUp";
-
 import "../css/App.scss";
 
 // const PublicLayout = props => (
