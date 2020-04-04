@@ -1,5 +1,4 @@
 .banner-showcase {
-  // content: "";
   margin: 0;
   height: 100vh;
   width: 100%;
@@ -8,54 +7,60 @@
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  filter: blur(7px);
-  -webkit-filter: blur(7px);
+  // filter: blur(7px);
+  // -webkit-filter: blur(7px);
   transition: all 1000ms;
   margin-bottom: 30px;
-  color: white;
+  color: black;
 }
-.banner-showcase:hover {
-  content: "";
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
-.banner-showcase:hover .banner-content {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
+// .banner-showcase:hover {
+//   content: "";
+//   filter: blur(0px);
+//   -webkit-filter: blur(0px);
+// }
+// .banner-showcase:hover .banner-content {
+//   filter: blur(0px);
+//   -webkit-filter: blur(0px);
+// }
 // .banner-content:hover {
 //   filter: blur(0px);
 //   -webkit-filter: blur(0px);
 // }
-.banner-content:hover .banner-showcase {
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
-}
+// .banner-content:hover .banner-showcase {
+//   filter: blur(2px);
+//   -webkit-filter: blur(2px);
+// }
 .banner-content {
   position: absolute;
   z-index: 1;
-  top: 10%;
+  top: 20%;
   left: 50%;
   margin-top: 105px;
   margin-left: -145px;
   width: 300px;
-  height: 350px;
   text-align: center;
   transition: all 1000ms;
+  border: 2px solid;
+  background-color: #ffffff7d;
   // .logo {
   //   height: 180px;
   //   width: 180px;
   // }
+
+  &:hover {
+    background-color: #ffffffbf;
+  }
   .title {
-    font-size: 4.2rem;
+    font-size: 4rem;
     margin-top: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     filter: blur(0);
     -webkit-filter: blur(0);
   }
   .text {
     line-height: 1.7;
     margin-top: 1rem;
+    font-size: 22px;
   }
 }
 
