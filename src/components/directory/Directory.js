@@ -16,36 +16,36 @@ class Directory extends React.Component {
           title: "HATS",
           imageUrl: Hats,
           id: 1,
-          linkUrl: "shop"
+          linkUrl: "shop",
         },
         {
           title: "JACKETS",
           imageUrl: Jackets,
           id: 2,
-          linkUrl: "shop"
+          linkUrl: "shop",
         },
 
         {
           title: "SNEAKERS",
           imageUrl: Sneakers,
           id: 3,
-          linkUrl: "shop"
+          linkUrl: "shop",
         },
 
         {
           title: "WOMEN",
           imageUrl: Womens,
           id: 4,
-          linkUrl: "shop"
+          linkUrl: "shop",
         },
 
         {
           title: "MEN",
           imageUrl: Men,
           id: 5,
-          linkUrl: "shop"
-        }
-      ]
+          linkUrl: "shop",
+        },
+      ],
     };
   }
   render() {

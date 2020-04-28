@@ -29,7 +29,7 @@ import "../css/App.scss";
 //   </div>
 // );
 
-const appLayout = Component => {
+const appLayout = (Component) => {
   return class appLayout extends React.Component {
     render() {
       return (
